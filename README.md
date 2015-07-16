@@ -2,6 +2,9 @@
 * Haruo Suzuki <haruo@g-language.org>
 * Last Update: 2015-07-16
 
+## Usage
+    perl gbk2ddbj.pl <INPUT_Genbank.gbk> <OUTPUT_DDBJ_MSS.txt>
+
 # Sample WGS data files
 * [Holospora undulata HU1](http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=ARPM03)
 * [Holospora obtusa F1](http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=AWTR02)
