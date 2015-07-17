@@ -3,12 +3,12 @@
 ## Last Update: 2015-07-16
 
 # Usage
-## * perl gbk2ddbj.pl INPUT_Genbank.gbk OUTPUT_DDBJ_MSS.txt
+* perl gbk2ddbj.pl INPUT_Genbank.gbk OUTPUT_DDBJ_MSS.txt
 
 # Sample WGS data files
-## * [Holospora undulata HU1](http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=ARPM03)
-## * [Holospora obtusa F1](http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=AWTR02)
-## * [Holospora elegans E1](http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=BAUP01)
+* [Holospora undulata HU1](http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=ARPM03)
+* [Holospora obtusa F1](http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=AWTR02)
+* [Holospora elegans E1](http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=BAUP01)
 
 # Make Sequence Files for DDBJ MSS
     ACCESSION="ARPM03 AWTR02 BAUP01";
@@ -49,5 +49,5 @@
     done
 
 # ToDoList
-## * Convert MCL output to gene content table
+* Convert MCL output to gene content table
 
