@@ -2,13 +2,13 @@
 ## Haruo Suzuki <haruo@g-language.org>
 ## Last Update: 2015-07-16
 
-## Usage
-### perl gbk2ddbj.pl INPUT_Genbank.gbk OUTPUT_DDBJ_MSS.txt
+# Usage
+## * perl gbk2ddbj.pl INPUT_Genbank.gbk OUTPUT_DDBJ_MSS.txt
 
 # Sample WGS data files
-## [Holospora undulata HU1](http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=ARPM03)
-## [Holospora obtusa F1](http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=AWTR02)
-## [Holospora elegans E1](http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=BAUP01)
+## * [Holospora undulata HU1](http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=ARPM03)
+## * [Holospora obtusa F1](http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=AWTR02)
+## * [Holospora elegans E1](http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=BAUP01)
 
 # Make Sequence Files for DDBJ MSS
     ACCESSION="ARPM03 AWTR02 BAUP01";
@@ -42,12 +42,12 @@
 
 ## [Convert Genbank to Annotation Files for DDBJ MSS](http://www.ddbj.nig.ac.jp/sub/mss/annotation_file-e.html)
     for ACC in $ACCESSION; do echo $ACC
-    INPUT=$ACC.gbff
+    INPUT=$ACC.$GBK
     OUTPUT=mss_annotation_$INPUT.txt
     perl gbk2ddbj.pl $INPUT tmp.txt
     cat mss_annotation_header.txt tmp.txt > $OUTPUT
     done
 
-## ToDoList
-### Convert MCL output to gene content table
-### 
+# ToDoList
+## * Convert MCL output to gene content table
+
