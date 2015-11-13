@@ -1,9 +1,9 @@
 # [Make Sequence and Annotation Files for DDBJ MSS (Mass Submission System)](http://www.ddbj.nig.ac.jp/sub/mss_flow-e.html)
-## Haruo Suzuki <haruo@g-language.org>
+## Haruo Suzuki (haruo[at]g-language[dot]org)  
 ## Last Update: 2015-07-16
 
 # Usage
-* perl gbk2ddbj.pl INPUT_Genbank.gbk OUTPUT_DDBJ_MSS.txt
+* perl gbk2ddbj.pl <INPUT_Genbank.gbk> <OUTPUT_DDBJ_MSS.txt>
 
 # Sample WGS data files
 * [Holospora undulata HU1](http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=ARPM03)
